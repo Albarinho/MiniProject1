@@ -8,12 +8,12 @@
 
 main::start("example.csv");
 class main  {
-    static public function start($filename) {
-        $records = csv::getRecords($filename);
-        $table = html::generateTable($records);
-        echo $table;
+                static public function start($filename) {
+                $records = csv::getRecords($filename);
+                $table = html::generateTable($records);
+                echo $table;
 
-    }
+            }
 
 }
 class html {
@@ -26,25 +26,9 @@ class html {
 
 
                     <thead>
-                       <title>Bootstrap Example</title>
-                        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
-                        <meta charset=\"utf-8\">
-                        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
-                        <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+                       <title>Albaro's Mini Project </title>
+                        
+                   
                     </thead>
             <tbody>
                         <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
