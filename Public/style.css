@@ -1,12 +1,10 @@
 .table-bordered > tbody > tr > th{
     background: white;
-    table-layout: fixed;
     overflow: hidden;
 }
 
 .table-bordered > tbody > tr > td{
     background: lightgray;
-    table-layout: fixed;
     overflow: hidden;
 }
 
