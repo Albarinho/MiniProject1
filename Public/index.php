@@ -34,9 +34,9 @@ class html {
             <tbody>
             
             <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
-            <div class=\"container\">
-            <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>
-            
+                <div class=\"container\">
+                <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>
+                
                     <table class='table table-striped table-bordered'>";
 
                             if ($count == 0) {
@@ -62,13 +62,16 @@ class html {
                         $table .= "</table>
                         
                 
-                        </div>
+                </div>
                            
-                            
-                        </tbody></html>";
+            </tbody></html>";
+
                         return $table;
-                    }
-                }
+        }
+    }
+
+
+
 class csv {
     static public function getRecords($filename) {
         $file = fopen($filename,"r");
