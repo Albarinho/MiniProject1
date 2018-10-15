@@ -1,0 +1,5 @@
+.table-bordered > tbody > tr > th{
+    background: white;
+    table-layout: fixed;
+    overflow: hidden;
+}
