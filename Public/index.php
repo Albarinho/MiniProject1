@@ -26,56 +26,49 @@ class html {
 
 
                     <thead>
-                       <title>Albaro's Mini Project </title>
+                       
+                        <title>Albaro's Mini Project </title>
                         
-                   
                     </thead>
+            
             <tbody>
-                        <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
+            
+            <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">
             <div class=\"container\">
             <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>
             
-            
-            
-            
-            
-            
-            
-            
-            
-            </style>
                     <table class='table table-striped table-bordered'>";
 
-            if ($count == 0) {
-                $array = $record->returnArray();
-                $fields = array_keys($array);
-                $table .= "<tr>";
-                //echo "<tr>;
-                foreach ($fields as $field) {
-                    $table .= "<th>" . $field . "</th>";
-                    $count++;
-                }
-                $table .= "</tr>";
+                            if ($count == 0) {
+                                $array = $record->returnArray();
+                                $fields = array_keys($array);
+                                $table .= "<tr>";
 
-            }
-            $array = $record->returnArray();
-            $values = array_values($array);
-            $table .= "<tr>";
-            foreach ($values as $value) {
-                $table .= "<td>" . $value . "</td>";
-            }
-            $table .= "</tr>";
-        }
-        $table .= "</table>
-        
-<link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>
-        </div>
-            <link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\"/>
-            
-        </tbody></html>";
-        return $table;
-    }
-}
+                                foreach ($fields as $field) {
+                                    $table .= "<th>" . $field . "</th>";
+                                    $count++;
+                                }
+                                $table .= "</tr>";
+
+                            }
+                            $array = $record->returnArray();
+                            $values = array_values($array);
+                            $table .= "<tr>";
+                            foreach ($values as $value) {
+                                $table .= "<td>" . $value . "</td>";
+                            }
+                            $table .= "</tr>";
+                        }
+                        $table .= "</table>
+                        
+                
+                        </div>
+                           
+                            
+                        </tbody></html>";
+                        return $table;
+                    }
+                }
 class csv {
     static public function getRecords($filename) {
         $file = fopen($filename,"r");
