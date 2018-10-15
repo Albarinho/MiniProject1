@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de31df5b-5308-4d66-b503-9c7a8047e9fe" name="Default Changelist" comment="" />
+    <list default="true" id="de31df5b-5308-4d66-b503-9c7a8047e9fe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/example.csv" beforeDir="false" afterPath="$PROJECT_DIR$/public/example.csv" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +50,7 @@
         <counts>
           <entry key="Procfile" value="8" />
           <entry key="css" value="113" />
-          <entry key="csv" value="133" />
+          <entry key="csv" value="141" />
           <entry key="php" value="92" />
           <entry key="txt" value="711" />
         </counts>
@@ -57,7 +60,7 @@
           <entry key="CSS" value="113" />
           <entry key="HTML" value="11" />
           <entry key="PHP" value="81" />
-          <entry key="PLAIN_TEXT" value="852" />
+          <entry key="PLAIN_TEXT" value="860" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions">
@@ -80,14 +83,21 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+              <folding>
+                <element signature="e#6#89#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/example.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -165,7 +175,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/index.php" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -187,12 +197,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="PHP B" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/Public" port="8085">
+  <component name="RunManager" selected="PHP Built-in Web Server.PHP b">
+    <configuration name="JS" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:63342/MP1/public/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="PHP b" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" document_root="$PROJECT_DIR$/public" port="8089">
       <method v="2">
-        <option name="LaunchBrowser.Before.Run" url="http://localhost:63342/MP1/Public/index.php" />
+        <option name="LaunchBrowser.Before.Run" url="http://localhost:63342/MP1/public/index.php" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.JS" />
+      <item itemvalue="PHP Built-in Web Server.PHP b" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,7 +224,7 @@
       <workItem from="1539535719702" duration="2340000" />
       <workItem from="1539571963062" duration="6696000" />
       <workItem from="1539578716216" duration="298000" />
-      <workItem from="1539579066168" duration="252000" />
+      <workItem from="1539579066168" duration="774000" />
     </task>
     <task id="LOCAL-00001" summary="Task: Added gitignore">
       <created>1539572347823</created>
@@ -325,17 +342,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9586000" />
+    <option name="totallyTimeSpent" value="10108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1373" height="739" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22532026" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32840723" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32840723" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +362,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32676518" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32676518" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -422,12 +440,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" selection-start-line="1" selection-end-line="1" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/example.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
